@@ -1,9 +1,72 @@
-<html>
- 
-<body>
-  <h1>My NAME</h1>
-  <p>Welcome to my new website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <title>HTML & CSS Cheatsheet</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">HTML & CSS Cheatsheet</h1>
+    </header>
+    <main>
+      
+        <!--start of the first table box-->
+        
+      <div class="boxModel">
+        <table>
+          <thead>
+            <tr>
+              <td colspan="4"><h2>Box Model</h2></td>
+            </tr>
+          </thead>
+          <tr>
+            <td class="rowOne"><p>CSS Tag</p></td>
+            <td class="rowOne"><p>Attributes</p></td>
+            <td class="rowOne"><p>Effect</p></td>
+            <td class="rowOne"><p>Example</p></td>
+          </tr>
+
+          <!--copy until next comment and insert for a new row -->
+
+          <tr>
+            <td><p class="strong">margin:</p></td>
+            <td><p>-top -right -bottom -left || 0 auto </p></td>
+            <td><p>Margins are used to create space around elements, outside of any defined borders.</p></td>
+            <td><p>margin: 25px 50px 75px 100px;<br> margin: 0 auto; </p></td>
+          </tr>
+
+          <!--copy until here and insert for a new row -->
+
+          <tr>
+            <td><p class="strong">padding:</p></td>
+            <td><p>-top -right -bottom -left</p></td>
+            <td><p>Padding is used to create space around an element's content, inside of any defined borders.</p></td>
+            <td><p>padding: 25px 50px 75px 100px;</p></td>
+          </tr>
+          <tr>
+            <td><p class="strong">border:</p></td>
+            <td><p>-width -style -color</p></td>
+            <td><p>Border properties allow you to specify the style, width, and color of an element's border.</p></td>
+            <td><p>border: 5px solid red;</p></td>
+        </tr>
+        <tr>
+            <td><p class="strong">border-style:</p></td>
+            <td><p>solid || dotted || dashed || groove || double || inset ||  outset || none</p></td>
+            <td><p>Defines a border-style</p></td>
+            <td><p>border-style: dotted;</p></td>
+        </tr>
+        <tr>
+            <td><p class="strong">border-radius:</p></td>
+            <td><p>topleft -topright -botright - botleft</p></td>
+            <td><p>Sets the border a radius</p></td>
+            <td><p>border-radius: 20px;</p></td>
+        </tr>
+     
+        </table>
+      </div>
+      <!--end of the first table box-->
+    </main>
+  </body>
 </html>
